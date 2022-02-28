@@ -3,5 +3,10 @@ package models;
 public enum Type{
     LOGIN,
     REGISTER,
-    ECHO
+    ECHO,
+    BROADCAST,
+    SLEEP,
+    LOGOUT,
+    SUBSCRIBE,
+    HOT
 }

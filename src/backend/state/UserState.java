@@ -2,7 +2,7 @@ package backend.state;
 
 public interface UserState {
 
-    public void notLogin();
+    public void wake();
 
-    public void loggedIn();
+    public void sleep();
 }
