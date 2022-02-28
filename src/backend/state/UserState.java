@@ -2,7 +2,8 @@ package backend.state;
 
 public interface UserState {
 
-    public void wake();
+    void wake();
 
-    public void sleep();
+    void sleep();
+
 }
